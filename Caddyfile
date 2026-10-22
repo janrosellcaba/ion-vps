@@ -1,0 +1,17 @@
+# astro
+janrosell.com {
+    reverse_proxy janrosell:4321
+}
+
+solucioncanina.es {
+    reverse_proxy solucioncanina:4321
+}
+
+# nextjs
+fin.janrosell.com {
+    reverse_proxy fin:3000
+}
+
+sport.janrosell.com {
+    reverse_proxy sport:3000
+}
