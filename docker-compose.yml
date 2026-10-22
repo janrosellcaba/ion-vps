@@ -11,10 +11,10 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     networks:
-      - web_network
+      - vps_network
 networks:
-  web_network:
-    name: vps_network
+  vps_network:
+    name: ion_network
     driver: bridge
 
 volumes:
